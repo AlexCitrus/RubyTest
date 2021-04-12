@@ -23,3 +23,13 @@ class Int_to_alphabet
 
 end
 
+# [2, 3, 4, 5]
+
+# A.succ = B 
+# B.succ = C  
+# C.succ = D 
+# D.succ = E
+
+# test = Int_to_alphabet.new(5)
+
+# puts test.convert
