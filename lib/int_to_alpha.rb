@@ -23,6 +23,3 @@ class Int_to_alphabet
 
 end
 
-tae = Int_to_alphabet.new(1000)
-
-tae.convert
