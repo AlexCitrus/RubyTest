@@ -34,3 +34,5 @@ end
 # D.succ = E
 
 # puts test.convert // 5 => E
+
+# https://ruby-doc.org/core-3.0.0/String.html#method-i-succ
