@@ -1,4 +1,4 @@
-class Int_to_alphabet
+class IntConverter
 
     attr_reader :integer
 
@@ -9,22 +9,20 @@ class Int_to_alphabet
     def convert
         if @integer.to_i < 1
             return "Oops! invalid input!"
-        end
-        unless @integer.to_i < 1
-            
+        else @integer.to_i < 1
             alpha = "A"
-           (2..@integer).to_a.each do 
-            alpha = alpha.succ        # succ method returns the immediate successor of an int or char
-                                      # 1.succ => 2    # "A".succ => "B" 
+            (2..@integer).to_a.each do 
+            alpha = alpha.succ        # succ method returns the immediate successor of an int or char                                      # 1.succ => 2    # "A".succ => "B" 
+            end
         end
         return "#{@integer} => #{alpha}"
     end       
-    end
-
+    
 end
 
 
-# test = Int_to_alphabet.new(5)
+# test = IntConverter.new(5)
+
 
 # [2, 3, 4, 5]
 
