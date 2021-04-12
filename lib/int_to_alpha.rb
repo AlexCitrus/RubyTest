@@ -23,6 +23,9 @@ class Int_to_alphabet
 
 end
 
+
+# test = Int_to_alphabet.new(5)
+
 # [2, 3, 4, 5]
 
 # A.succ = B 
@@ -30,6 +33,4 @@ end
 # C.succ = D 
 # D.succ = E
 
-# test = Int_to_alphabet.new(5)
-
-# puts test.convert
+# puts test.convert // 5 => E
