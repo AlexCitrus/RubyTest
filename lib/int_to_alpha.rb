@@ -28,11 +28,16 @@ end
 
 # [2, 3, 4, 5]
 
-# A.succ = B 
-# B.succ = C  
-# C.succ = D 
-# D.succ = E
+# "A".succ = "B" 
+# "B".succ = "C"  
+# "C".succ = "D" 
+# "D".succ = "E"
 
 # puts test.convert // 5 => E
 
 # https://ruby-doc.org/core-3.0.0/String.html#method-i-succ
+
+# "AB".succ = "AC"
+# "ZZ".succ = "AAA"
+# "AZ".succ = "BA"
+
